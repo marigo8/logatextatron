@@ -1,0 +1,68 @@
+body{
+  background-color: #3e4e50;
+  font-family: serif, georgia;
+}
+.redBG{
+  color: #efe6dd;
+  background-color: #bb4430;
+}
+.yellowBG{
+  color: #3e4e50;
+  background-color: #f3dfa2;
+}
+.blueBG{
+  color: #efe6dd;
+  background-color: #7ebdc2;
+}
+.red{
+  color: #bb4430;
+}
+.yellow{
+  color: #f3dfa2;
+}
+.blue{
+  color: #7ebdc2;
+}
+.hide{
+  display: none;
+}
+header{
+  display: inline;
+}
+h1{
+  color: #efe6dd;
+  text-align: center;
+  font-size: 64pt;
+}
+#accountbuttons{
+  position: absolute;
+  top: 32px;
+  right: 32px;
+}
+#accountbuttons button{
+  border-style: none;
+  border-radius: 4px;
+  padding: 8px;
+  font-family: serif, georgia;
+}
+section{
+  margin: auto;
+  background-color: #efe6dd;
+  width: 50%;
+  min-width: 600px;
+  max-width: 800px;
+  border-radius: 16px;
+}
+h2{
+  margin: 0;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  padding: 16px;
+  font-size: 24pt;
+}
+p{
+  margin: 0 auto;
+  padding: 16px 8px;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+}

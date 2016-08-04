@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../public/style.css" type="text/css" />
+  </head>
+  <body>
+    <header>
+      <h1 onclick="alert('home!')">
+        <span class="red">LOG</span>A<span class="yellow">TEXT</span>A<span class="blue">TRON</span>
+      </h1>
+      <div id="accountbuttons">
+        <button id="login" class="blueBG show">LOG IN</button>
+        <button id="logup" class="yellowBG show">LOG UP</button>
+        <button id="logout" class="blueBG hide">LOG OUT</button>
+        <button id="deleteaccount" class="redBG hide">DELETE ACCOUNT</button>
+      </div>
+    </header>
+    <section class="redBG">
+      <h2>Section</h2>
+      <p>
+        This is a paragraph. 
+        Like many other paragraphs, this paragraph is made up of sentences. 
+        Sentences are made of words. 
+        I don't know what else to say so the next sentence will be the last one. 
+        This is the last sentence.
+      </p>
+    </section>
+    
+    
+    
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+      var localHost = "http://logatextatron.marigo.c9users.io/";
+      var socket = io.connect(localHost);
+      socket.on('connect', function(data){
+        alert("hello!");
+      });
+    </script>
+  </body>
+</html>
